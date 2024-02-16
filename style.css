@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex; /* profile box div will be on 1st column of the containmer*/
+     align-items: center; /*concise the column to the center */
+    justify-content: center;/* brings to the center of container*/
+
+
+}
+.profile-box{
+    background-color: #ff574a;
+    text-align: center; /*brings all the icons to center */
+    padding: 40px 90px;
+    color: #fff; /* text color */
+    position: relative;
+    border-radius: 20px;
+}
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px; /* similar to margin -left bcoz since it is a child div */
+    top: 40px;
+}
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+.profile-pic{
+    width: 150px;
+    border-radius: 50%; /* to be circle */
+    background: #fff;
+    padding: 6px; /* space between the border and pic */
+    margin-top:40px ;
+   
+}
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.profile-bottom img{ /* img is the child tag of profile-bottom*/
+    width: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.profile-box button{
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius:30px ;
+    margin-bottom:-50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-box h3{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.social-media img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
